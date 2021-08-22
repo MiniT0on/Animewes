@@ -59,7 +59,7 @@
 <script id="dsq-count-scr" src="//https-burubanana-netlify-app.disqus.com/count.js" async></script>
 <script>
 var disqus_loaded = false;
-var disqus_shortname = 'jjjj-3'; //Add your shortname here
+var disqus_shortname = 'jjjj-3';
 
 function disqus() {
 
@@ -73,13 +73,12 @@ function disqus() {
         (document.getElementsByTagName("head")[0] ||
         document.getElementsByTagName("body")[0])
         .appendChild(e);
-
-        //Hide the button after opening
         document.getElementById("show-comments").style.display = "none";
+        var Diqus_Frame = document.getElementById('cajaASDASD');
+        Diqus_Frame.style.display = "block";
     };
 };
 
-//Opens comments when linked to directly
 var hash = window.location.hash.substr(1);
 if (hash.length > 8) {
     if (hash.substring(0, 8) == "comment-") {
