@@ -1,1 +1,0 @@
-HOLA MINA-SAN XD
